@@ -9,8 +9,8 @@ public class PlayerCharacter : MonoBehaviour
  void Start() {
  _health = 5;
  }
- public void Hurt(int damage) {
- _health -= damage;
+ public void Hurt(int damage) { 
+_health -= damage; 
  Debug.Log("Health: " + _health);
  }
 }

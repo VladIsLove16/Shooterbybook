@@ -15,7 +15,6 @@ void OnGUI() {
  float posY = _camera.pixelHeight/2 - size/2;
  GUI.Label(new Rect(posX, posY, size, size), "*"); 
 }
- 
  void Update() {
  if (Input.GetMouseButtonDown(0)) { 
  Vector3 point = new Vector3( _camera.pixelWidth/2, _camera.pixelHeight/2, 0);
